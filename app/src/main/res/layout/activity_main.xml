@@ -31,9 +31,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:onClick="get"
         android:text="City Informatoin"
-        android:textSize="20dp"
-        android:onClick="get"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/temp_textview"
